@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>GO HOME!</title>
+  </head>
+  <body>
+        <table border="0" align="center" background="./555.jpg" width="670"  height="419">
+        		<tr   height="50">
+          			<td id="nowDate" width="30" align="right"><font size="" color="#ff6600">XXXX年XX月XX日</font></td>
+          			<td   width="50" ><font size="" color="#ff6600">您的开机时间为：</font></td>
+          			<td  id="openComputerTime" width="50"><font size="" color="#ff6600">XX:XX</font></td></tr>
+        		<!-- <tr>
+          			<td></td>
+          			<td>请设置您的工作时间</td>
+          			<td id="workTime">9</td>
+          			<td id="update">确定</td></tr>
+        		<tr>
+        		    <td></td>
+        				<td colspan="3" id="show1">工作时间不设置默认为9小时，设置完点击确定保存，以确定下班时间监控生效</td></tr>
+        		<tr>
+        		    <td></td>
+        				<td colspan="3" id="show2">例：早9:00上班——晚18:00下班 工作时间应该为9小时</td></tr> -->
+        		<tr   height="20">
+          			<td width="30"></td>
+          			<td  width="50"><font size="" color="#ff6600">您今天可以下班的时间为：</font></td>
+          			<td id="goHomeTime" width="50"><font size="" color="#ff6600">XX:XX</font></td></tr>
+				<tr   height="200">
+					<td colspan="4" width="100%"></td>
+				</tr>
+    		</table>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+</html>
